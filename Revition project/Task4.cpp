@@ -1,8 +1,8 @@
 //#include "Header.h"
 //
-//int calculetHowManyNuts(int squirrels, int nuts)
+//int calculetManyDozent(int number)
 //{
-//	return nuts / squirrels;
+//	return (number % 10) + (number / 10 % 10) + (number / 100);
 //}
 //
 //int main()
@@ -16,7 +16,7 @@
 //	//cout << "Input nuts: " << endl;
 //	//cin >> k;
 //
-//	cout << (calculetHowManyNuts(3, 14) == 4 ? "Well done!" : "Something was Wrong!") << endl;
+//	cout << (calculetManyDozent(345) == 12 ? "Well done!" : "Something was Wrong!") << endl;
 //
 //	system("pause");
 //	return 0;
